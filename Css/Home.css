@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,9 +10,13 @@
       justify-content: space-around;
      align-items: center;
       min-height: 10vh;
+      width: 100%;
       background-color: #5d4954;
       font-family: 'Poppins', sans-serif;
-      position: sticky;
+      top: 0%;
+
+      position: absolute;
+  position: sticky;
   }
   .logo{
       color: rgb(226, 226, 226);
@@ -92,7 +97,7 @@
   .header {
     margin: 0;
     
-    background-image: url(../5.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
@@ -102,7 +107,7 @@
   .pnrBtn {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     text-decoration: none;
     font-family: helvetica;
     color: black;
@@ -110,20 +115,7 @@
     border-radius: 100px;
     padding: 25px;
     position: relative;
-    -webkit-animation-name: moveToTop;
-            animation-name: moveToTop;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-fill-mode: backwards;
-            animation-fill-mode: backwards;
-    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-            box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out, -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
+   
   }
   
   .pnrBtn:hover {
@@ -137,7 +129,7 @@
   .trainBtn {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     text-decoration: none;
     font-family: helvetica;
     color: black;
@@ -146,20 +138,7 @@
     margin-top: 60px;
     padding: 25px;
     position: relative;
-    -webkit-animation-name: moveToTop;
-            animation-name: moveToTop;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-fill-mode: backwards;
-            animation-fill-mode: backwards;
-    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-            box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out, -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
+   
   }
   
   .trainBtn:hover {
@@ -173,7 +152,7 @@
   .seatBtn {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     text-decoration: none;
     font-family: helvetica;
     color: black;
@@ -182,20 +161,7 @@
     margin-top: 60px;
     padding: 25px;
     position: relative;
-    -webkit-animation-name: moveToTop;
-            animation-name: moveToTop;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-fill-mode: backwards;
-            animation-fill-mode: backwards;
-    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-            box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out, -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
+    
   }
   
   .seatBtn:hover {
@@ -209,7 +175,7 @@
   .fareBtn {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     text-decoration: none;
     font-family: helvetica;
     color: black;
@@ -218,20 +184,7 @@
     margin-top: 60px;
     padding: 25px;
     position: relative;
-    -webkit-animation-name: moveToTop;
-            animation-name: moveToTop;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-fill-mode: backwards;
-            animation-fill-mode: backwards;
-    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-            box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out, -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
+    -
   }
   
   .fareBtn:hover {
@@ -245,7 +198,7 @@
   .stationBtn {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     text-decoration: none;
     font-family: helvetica;
     color: black;
@@ -254,20 +207,7 @@
     margin-top: 60px;
     padding: 25px;
     position: relative;
-    -webkit-animation-name: moveToTop;
-            animation-name: moveToTop;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-fill-mode: backwards;
-            animation-fill-mode: backwards;
-    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-            box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out;
-    transition: transform .45s ease-out, box-shadow .45s ease-out, -webkit-transform .45s ease-out, -webkit-box-shadow .45s ease-out;
+    
   }
   
   .stationBtn:hover {
@@ -278,39 +218,96 @@
     -webkit-transition: all .45s ease-out;
     transition: all .45s ease-out;
   }
+  h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       font-size: 40px;
+       font-family: 'Oswald', sans-serif;
+       -webkit-animation-name: moveToLeft;
+       animation-name: moveToLeft;
+-webkit-animation-duration: 3s;
+       animation-duration: 3s;
+}
+    
+    h2{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: 'PT Serif', serif;
+         font-size: 30px;
+         -webkit-animation-name: moveToLeft;
+          animation-name: moveToLeft;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  
+    }
+    @-webkit-keyframes moveToLeft {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateX(200px);
+                  transform: translateX(200px);
+        }
+        80% {
+          -webkit-transform: translateX(-100px);
+                  transform: translateX(-100px);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateX(0px);
+                  transform: translateX(0px);
+        }
+      }
+      
+      @keyframes moveToLeft {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateX(200px);
+                  transform: translateX(200px);
+        }
+        80% {
+          -webkit-transform: translateX(-100px);
+                  transform: translateX(-100px);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateX(0px);
+                  transform: translateX(0px);
+        }
+      }
+
+      @-webkit-keyframes moveToRight {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateX(-200px);
+                  transform: translateX(-200px);
+        }
+        80% {
+          -webkit-transform: translateX(100px);
+                  transform: translateX(100px);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateX(0px);
+                  transform: translateX(0px);
+        }
+      }
+      
+      @keyframes moveToRight {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateX(-200px);
+                  transform: translateX(-200px);
+        }
+        80% {
+          -webkit-transform: translateX(100px);
+                  transform: translateX(100px);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateX(0px);
+                  transform: translateX(0px);
+        }
+      }
 
   
-  h1{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      
-  }
-  .Fav-container{
-      position: fixed;
-      bottom: 50px;
-      right: 50px;
-      z-index: 999;
-      cursor: pointer;
-  }
-  .Fav-icon-holder{
-      width: 50px;
-      height: 50px;
-       border-radius: 100%;
-       background: #016fb9;
-       box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-  }
-  .Fav-icon-holder:hover{
-      opacity: 0.8;
-  }
-  .Fav-icon-holder i{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      height: 100%;
-      font-style: 25px;
-      color: #ffffff;
-
-
-  }

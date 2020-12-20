@@ -184,7 +184,6 @@
     margin-top: 60px;
     padding: 25px;
     position: relative;
-    -
   }
   
   .fareBtn:hover {
@@ -374,6 +373,11 @@
         color: #ffffff;
         box-shadow: 0 6px 20px rgba(0,0,0,0.2);
         margin-right: 10px;
+      }
+
+      .fab-lable a{
+        text-decoration: none;
+        color: #ffff;
       }
 
 
